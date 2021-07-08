@@ -22,7 +22,14 @@ public class DependencyTests {
         // Test that always fails
         @Test()
         public void failTest() {
-                Assert.assertTrue(false, "True (Never will be)");
+                try {
+
+                        Assert.assertTrue(false, "True (Never will be)");
+                }
+                catch (AssertionError error) {
+                        error.printStackTrace();
+                        Assert.fail();
+                }
         }
 
         // This test will never run because it has a hard dependency failTest, a test which never passes
