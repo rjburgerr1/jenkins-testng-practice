@@ -5,44 +5,44 @@
   <suite started-at="2021-06-29T15:44:39 CDT" name="Default suite" finished-at="2021-06-29T15:44:39 CDT" duration-ms="41">
     <groups>
       <group name="negative">
-        <method signature="test1.negativeTest()[pri:0, instance:test1@55740540]" name="negativeTest" class="test1"/>
-        <method signature="test1.negativeTest2()[pri:0, instance:test1@55740540]" name="negativeTest2" class="test1"/>
+        <method signature="MetagroupTests.negativeTest()[pri:0, instance:MetagroupTests@55740540]" name="negativeTest" class="MetagroupTests"/>
+        <method signature="MetagroupTests.negativeTest2()[pri:0, instance:MetagroupTests@55740540]" name="negativeTest2" class="MetagroupTests"/>
       </group> <!-- negative -->
       <group name="tests">
-        <method signature="test1.negativeTest()[pri:0, instance:test1@55740540]" name="negativeTest" class="test1"/>
-        <method signature="test1.negativeTest2()[pri:0, instance:test1@55740540]" name="negativeTest2" class="test1"/>
-        <method signature="test1.positiveTest()[pri:0, instance:test1@55740540]" name="positiveTest" class="test1"/>
-        <method signature="test1.positiveTest2()[pri:0, instance:test1@55740540]" name="positiveTest2" class="test1"/>
-        <method signature="test1.test()[pri:0, instance:test1@55740540]" name="test" class="test1"/>
+        <method signature="MetagroupTests.negativeTest()[pri:0, instance:MetagroupTests@55740540]" name="negativeTest" class="MetagroupTests"/>
+        <method signature="MetagroupTests.negativeTest2()[pri:0, instance:MetagroupTests@55740540]" name="negativeTest2" class="MetagroupTests"/>
+        <method signature="MetagroupTests.positiveTest()[pri:0, instance:MetagroupTests@55740540]" name="positiveTest" class="MetagroupTests"/>
+        <method signature="MetagroupTests.positiveTest2()[pri:0, instance:MetagroupTests@55740540]" name="positiveTest2" class="MetagroupTests"/>
+        <method signature="MetagroupTests.test()[pri:0, instance:MetagroupTests@55740540]" name="test" class="MetagroupTests"/>
       </group> <!-- tests -->
       <group name="positive">
-        <method signature="test1.positiveTest()[pri:0, instance:test1@55740540]" name="positiveTest" class="test1"/>
-        <method signature="test1.positiveTest2()[pri:0, instance:test1@55740540]" name="positiveTest2" class="test1"/>
+        <method signature="MetagroupTests.positiveTest()[pri:0, instance:MetagroupTests@55740540]" name="positiveTest" class="MetagroupTests"/>
+        <method signature="MetagroupTests.positiveTest2()[pri:0, instance:MetagroupTests@55740540]" name="positiveTest2" class="MetagroupTests"/>
       </group> <!-- positive -->
     </groups>
     <test started-at="2021-06-29T15:44:39 CDT" name="Default test" finished-at="2021-06-29T15:44:39 CDT" duration-ms="41">
-      <class name="test1">
-        <test-method signature="negativeTest()[pri:0, instance:test1@55740540]" started-at="2021-06-29T15:44:39 CDT" name="negativeTest" finished-at="2021-06-29T15:44:39 CDT" duration-ms="9" status="PASS">
+      <class name="MetagroupTests">
+        <test-method signature="negativeTest()[pri:0, instance:MetagroupTests@55740540]" started-at="2021-06-29T15:44:39 CDT" name="negativeTest" finished-at="2021-06-29T15:44:39 CDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method signature="negativeTest2()[pri:0, instance:test1@55740540]" started-at="2021-06-29T15:44:39 CDT" name="negativeTest2" finished-at="2021-06-29T15:44:39 CDT" duration-ms="1" status="PASS">
+        <test-method signature="negativeTest2()[pri:0, instance:MetagroupTests@55740540]" started-at="2021-06-29T15:44:39 CDT" name="negativeTest2" finished-at="2021-06-29T15:44:39 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest2 -->
-        <test-method signature="positiveTest()[pri:0, instance:test1@55740540]" started-at="2021-06-29T15:44:39 CDT" name="positiveTest" finished-at="2021-06-29T15:44:39 CDT" duration-ms="0" status="PASS">
+        <test-method signature="positiveTest()[pri:0, instance:MetagroupTests@55740540]" started-at="2021-06-29T15:44:39 CDT" name="positiveTest" finished-at="2021-06-29T15:44:39 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTest -->
-        <test-method signature="positiveTest2()[pri:0, instance:test1@55740540]" started-at="2021-06-29T15:44:39 CDT" name="positiveTest2" finished-at="2021-06-29T15:44:39 CDT" duration-ms="1" status="PASS">
+        <test-method signature="positiveTest2()[pri:0, instance:MetagroupTests@55740540]" started-at="2021-06-29T15:44:39 CDT" name="positiveTest2" finished-at="2021-06-29T15:44:39 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTest2 -->
-        <test-method signature="test()[pri:0, instance:test1@55740540]" started-at="2021-06-29T15:44:39 CDT" name="test" finished-at="2021-06-29T15:44:39 CDT" duration-ms="0" status="PASS">
+        <test-method signature="test()[pri:0, instance:MetagroupTests@55740540]" started-at="2021-06-29T15:44:39 CDT" name="test" finished-at="2021-06-29T15:44:39 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- test1 -->
+      </class> <!-- MetagroupTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
