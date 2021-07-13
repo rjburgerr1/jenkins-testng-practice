@@ -54,8 +54,7 @@
 
     <!--Parameters can be provided with the @Parameters annotation or with a DataProvider-->
     <test name="Parameters Test">
-
-<parameter name="num" value="12"></parameter>
+        <parameter name="num" value="12"></parameter>
         <classes>
             <class name="ParameterTests"/>
         </classes>
@@ -72,6 +71,13 @@
     <test name="Class-level Annotations Test">
         <classes>
             <class name="ClasslevelTests"/>
+        </classes>
+    </test>
+
+    <!--Class-level annotations simplifies test classes where possible-->
+    <test name="Factories Test">
+        <classes>
+            <class name="FactoryTestsFactory"/>
         </classes>
     </test>
 </suite> <!-- Suite -->

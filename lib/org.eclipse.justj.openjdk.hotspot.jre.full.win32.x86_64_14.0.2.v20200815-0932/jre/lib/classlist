@@ -546,7 +546,7 @@ java/lang/invoke/MethodType$ConcurrentWeakInternSet
 java/lang/invoke/MethodTypeForm
 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
 java/lang/invoke/MethodHandles
-java/lang/invoke/MemberName$Factory
+java/lang/invoke/MemberName$FactoryTestsFactory
 java/lang/reflect/ReflectPermission
 sun/invoke/util/VerifyAccess
 sun/invoke/util/Wrapper
@@ -608,8 +608,8 @@ java/lang/invoke/ClassSpecializer$1
 java/lang/invoke/BoundMethodHandle$SpeciesData
 java/lang/invoke/ClassSpecializer$SpeciesData
 java/util/ImmutableCollections$SubList
-java/lang/invoke/BoundMethodHandle$Specializer$Factory
-java/lang/invoke/ClassSpecializer$Factory
+java/lang/invoke/BoundMethodHandle$Specializer$FactoryTestsFactory
+java/lang/invoke/ClassSpecializer$FactoryTestsFactory
 java/lang/invoke/SimpleMethodHandle
 java/lang/NoSuchFieldException
 java/lang/invoke/BoundMethodHandle$Species_L
@@ -668,7 +668,7 @@ java/lang/invoke/StringConcatFactory$MethodHandleInlineCopyStrategy$1
 java/lang/invoke/StringConcatFactory$MethodHandleInlineCopyStrategy$2
 jdk/internal/org/objectweb/asm/FieldWriter
 jdk/internal/org/objectweb/asm/FieldVisitor
-java/lang/invoke/ClassSpecializer$Factory$1Var
+java/lang/invoke/ClassSpecializer$FactoryTestsFactory$1Var
 java/util/ImmutableCollections$ListItr
 java/util/ListIterator
 java/util/Collections$UnmodifiableRandomAccessList
